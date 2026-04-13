@@ -1,0 +1,94 @@
+{
+  "nombre": "Guiso típico Uruguayo",
+  "categoria": "principal",
+  "dificultad": "fácil",
+  "tiempo_preparacion": 15,
+  "tiempo_coccion": 40,
+  "porciones": 4,
+  "foto": "guiso-tipico-uruguayo.jpg",
+  "ingredientes": [
+    {
+      "seccion": "Principal",
+      "items": [
+        { "cantidad": 150, "unidad": "g", "nombre": "cebolla, en trozos" },
+        { "cantidad": 100, "unidad": "g", "nombre": "morrón, en trozos" },
+        { "cantidad": 2, "unidad": "dientes", "nombre": "ajo" },
+        { "cantidad": 30, "unidad": "g", "nombre": "aceite de oliva" },
+        { "cantidad": 500, "unidad": "g", "nombre": "carne paleta, en cubos de 2 cm aprox." },
+        { "cantidad": 120, "unidad": "g", "nombre": "puré de tomate" },
+        { "cantidad": 0.5, "unidad": "cucharadita", "nombre": "azúcar" },
+        { "cantidad": 1, "unidad": "cucharada", "nombre": "concentrado de caldo de verduras casero" },
+        { "cantidad": 1, "unidad": "cubito", "nombre": "caldo de verduras" },
+        { "cantidad": 0.5, "unidad": "cucharada", "nombre": "orégano seco" },
+        { "cantidad": 0.5, "unidad": "cucharada", "nombre": "pimentón" },
+        { "cantidad": 1, "unidad": "cucharadita", "nombre": "ají molido" },
+        { "cantidad": 1, "unidad": "cucharadita", "nombre": "sal" },
+        { "cantidad": 1, "unidad": "pellizco", "nombre": "pimienta molida" },
+        { "cantidad": 250, "unidad": "g", "nombre": "zanahoria, en cubos de 2 cm aprox." },
+        { "cantidad": null, "unidad": null, "nombre": "agua, hasta cubrir la preparación" },
+        { "cantidad": 200, "unidad": "g", "nombre": "papa, en cubos de 2 cm aprox." },
+        { "cantidad": 200, "unidad": "g", "nombre": "batata (boniato), en cubos de 2 cm aprox." },
+        { "cantidad": 100, "unidad": "g", "nombre": "calabaza, en cubos de 2 cm aprox." },
+        { "cantidad": 200, "unidad": "g", "nombre": "arroz parboil" }
+      ]
+    }
+  ],
+  "accesorios": ["cuchilla", "espátula"],
+  "pasos": [
+    {
+      "instruccion": "Poner en el vaso la cebolla, el morrón y el ajo y picar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "5",
+        "temperatura": null,
+        "tiempo": "5 seg"
+      }
+    },
+    {
+      "instruccion": "Con la espátula, bajar las verduras hacia el fondo del vaso. Agregar el aceite y sofreír.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "1 (giro inverso)",
+        "temperatura": 120,
+        "tiempo": "5 min"
+      }
+    },
+    {
+      "instruccion": "Añadir la carne en cubos, el puré de tomates, el azúcar, el caldo concentrado de verduras, el orégano, el pimentón, el ají molido, la sal y la pimienta. Mezclar bien con la espátula.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "1 (giro inverso)",
+        "temperatura": 100,
+        "tiempo": "10 min"
+      }
+    },
+    {
+      "instruccion": "Añadir la zanahoria y agregar agua hasta cubrir la preparación. Mezclar con la espátula.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "1 (giro inverso)",
+        "temperatura": 100,
+        "tiempo": "5 min"
+      }
+    },
+    {
+      "instruccion": "Añadir la papa, la batata, la calabaza y agregar agua hasta cubrir toda la preparación. Mezclar con la espátula.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "1 (giro inverso)",
+        "temperatura": 100,
+        "tiempo": "10 min"
+      }
+    },
+    {
+      "instruccion": "Añadir el arroz, mezclar con la espátula. Verter en una fuente y servir inmediatamente.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "1 (giro inverso)",
+        "temperatura": 100,
+        "tiempo": "15 min"
+      }
+    }
+  ],
+  "notas": "La carne cortada en cubos se puede reemplazar por 500 g de carne picada programando el mismo tiempo y temperatura."
+}
