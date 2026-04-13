@@ -1,0 +1,54 @@
+{
+  "nombre": "Pan de agua",
+  "categoria": "principal",
+  "dificultad": "fácil",
+  "tiempo_preparacion": 5,
+  "tiempo_coccion": 175,
+  "porciones": 4,
+  "foto": "pan-de-agua.jpg",
+  "ingredientes": [
+    {
+      "seccion": "Principal",
+      "items": [
+        { "cantidad": 550, "unidad": "g", "nombre": "agua" },
+        { "cantidad": 720, "unidad": "g", "nombre": "harina de fuerza, y algo más para espolvorear" },
+        { "cantidad": 10, "unidad": "g", "nombre": "levadura prensada fresca, desmenuzada" },
+        { "cantidad": 10, "unidad": "g", "nombre": "sal" }
+      ]
+    }
+  ],
+  "accesorios": ["cuchilla", "espátula", "bandeja de horno", "cuchillo afilado", "colador de malla fina", "rejilla"],
+  "pasos": [
+    {
+      "instruccion": "Poner en el vaso el agua y la harina y mezclar. Dejar reposar dentro del vaso durante 40 minutos.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "6",
+        "temperatura": null,
+        "tiempo": "20 seg"
+      }
+    },
+    {
+      "instruccion": "Añadir la levadura en un lado de la masa y la sal en el lado opuesto e iniciar el amasado. Dejar levar dentro del vaso durante 1 hora o hasta que doble su volumen.",
+      "robot": {
+        "funcion": "Amasar",
+        "velocidad": null,
+        "temperatura": null,
+        "tiempo": "6 min"
+      }
+    },
+    {
+      "instruccion": "Precalentar el horno a 250°C. Espolvorear con harina una bandeja de horno y reservar.",
+      "robot": null
+    },
+    {
+      "instruccion": "Verter la masa sobre una superficie de trabajo espolvoreada con harina y, con las manos, extenderla formando un rectángulo de aprox. 20x30 cm sin ejercer mucha presión. Doblar ⅓ de masa hacia el centro y doblar de nuevo para formar una barra. Pellizcar la unión y colocarla en la bandeja de horno preparada. Espolvorear con harina con ayuda de un colador de malla fina y hacer 2-3 cortes en la superficie con un cuchillo afilado.",
+      "robot": null
+    },
+    {
+      "instruccion": "Hornear 35 minutos a 250°C. Retirar del horno y dejar enfriar sobre una rejilla antes de servir.",
+      "robot": null
+    }
+  ],
+  "notas": "El tiempo total incluye 40 minutos de reposo inicial más 1 hora de leudado. El resultado es una corteza crujiente y miga aireada."
+}
