@@ -1,0 +1,17 @@
+# Dependencies
+app/node_modules/
+
+# Build artifacts (old dist, we use docs/ now)
+app/dist/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/

@@ -1,0 +1,65 @@
+{
+  "nombre": "Salchichón de chocolate",
+  "categoria": "postre",
+  "dificultad": "fácil",
+  "tiempo_preparacion": 5,
+  "tiempo_coccion": 10,
+  "porciones": 8,
+  "foto": "salchichon-de-chocolate.jpg",
+  "ingredientes": [
+    {
+      "seccion": "Principal",
+      "items": [
+        { "cantidad": 50, "unidad": "g", "nombre": "azúcar" },
+        { "cantidad": 200, "unidad": "g", "nombre": "galletas maría" },
+        { "cantidad": 100, "unidad": "g", "nombre": "manteca" },
+        { "cantidad": 500, "unidad": "g", "nombre": "dulce de leche repostero" },
+        { "cantidad": 100, "unidad": "g", "nombre": "cacao en polvo" }
+      ]
+    }
+  ],
+  "accesorios": ["cuchilla", "espátula"],
+  "pasos": [
+    {
+      "instruccion": "Poner el azúcar en el vaso y pulverizar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "10",
+        "temperatura": null,
+        "tiempo": "10 seg"
+      }
+    },
+    {
+      "instruccion": "Añadir las galletas y triturar. Verter en un bol y reservar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "6",
+        "temperatura": null,
+        "tiempo": "3 seg"
+      }
+    },
+    {
+      "instruccion": "Poner la manteca en el vaso y derretir.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "2",
+        "temperatura": 80,
+        "tiempo": "1 min"
+      }
+    },
+    {
+      "instruccion": "Incorporar el dulce de leche repostero, las galletas y el azúcar reservado y el cacao. Mezclar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "6",
+        "temperatura": null,
+        "tiempo": "15 seg"
+      }
+    },
+    {
+      "instruccion": "Envolver la mezcla en film transparente o papel aluminio en forma de salchichón y llevar al freezer durante un mínimo de 5 horas antes de servir. Cortar en porciones y servir.",
+      "robot": null
+    }
+  ],
+  "notas": "Necesita un mínimo de 5 horas en el freezer antes de servir. Ideal preparar el día anterior."
+}

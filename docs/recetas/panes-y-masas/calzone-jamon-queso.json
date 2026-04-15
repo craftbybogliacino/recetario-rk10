@@ -1,0 +1,75 @@
+{
+  "nombre": "Calzone de jamón y queso",
+  "categoria": "principal",
+  "dificultad": "media",
+  "tiempo_preparacion": 20,
+  "tiempo_coccion": 70,
+  "porciones": 4,
+  "foto": "calzone-jamon-queso.jpg",
+  "ingredientes": [
+    {
+      "seccion": "Masa",
+      "items": [
+        { "cantidad": 220, "unidad": "g", "nombre": "agua a temperatura ambiente" },
+        { "cantidad": 1, "unidad": "cucharadita", "nombre": "azúcar (opcional)" },
+        { "cantidad": 20, "unidad": "g", "nombre": "levadura prensada fresca, desmenuzada" },
+        { "cantidad": 400, "unidad": "g", "nombre": "harina de fuerza" },
+        { "cantidad": 30, "unidad": "g", "nombre": "aceite de oliva" },
+        { "cantidad": 1, "unidad": "cucharadita", "nombre": "sal" }
+      ]
+    },
+    {
+      "seccion": "Relleno y montaje",
+      "items": [
+        { "cantidad": 300, "unidad": "g", "nombre": "queso emmental, en trozos" },
+        { "cantidad": 300, "unidad": "g", "nombre": "mozzarella de barra, en trozos" },
+        { "cantidad": 150, "unidad": "g", "nombre": "tomate frito estilo casero" },
+        { "cantidad": 1, "unidad": "cucharadita", "nombre": "orégano seco" },
+        { "cantidad": 4, "unidad": "lonchas", "nombre": "jamón cocido" }
+      ]
+    }
+  ],
+  "accesorios": ["cuchilla", "espátula", "bol grande", "film transparente", "bandeja de horno", "papel de hornear"],
+  "pasos": [
+    {
+      "instruccion": "Engrasar ligeramente un bol grande con aceite y reservar. Poner en el vaso el agua, el azúcar y la levadura prensada y mezclar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "2",
+        "temperatura": null,
+        "tiempo": "20 seg"
+      }
+    },
+    {
+      "instruccion": "Añadir la harina, el aceite y la sal e iniciar el amasado. Retirar la masa del vaso, darle forma de bola y colocarla en el bol engrasado. Cubrir el bol con film transparente y dejar reposar hasta que doble su volumen (aprox. 1 hora).",
+      "robot": {
+        "funcion": "Amasar",
+        "velocidad": null,
+        "temperatura": null,
+        "tiempo": "2 min"
+      }
+    },
+    {
+      "instruccion": "Precalentar el horno a 200°C. Forrar una bandeja de horno con papel de hornear.",
+      "robot": null
+    },
+    {
+      "instruccion": "Poner el queso emmental en el vaso y triturar. Retirar a un bol y reservar.",
+      "robot": {
+        "funcion": "Cocción manual",
+        "velocidad": "8",
+        "temperatura": null,
+        "tiempo": "15 seg"
+      }
+    },
+    {
+      "instruccion": "Cuando la masa haya doblado su volumen, aplastarla sobre la superficie de trabajo espolvoreada con harina para quitarle el aire. Dividirla en 4 trozos iguales (aprox. 170 g) y darles forma de bola. Extender cada una hasta obtener un círculo de aprox. 30 cm. Untar la superficie del disco de masa con el tomate frito, dejando libre un borde de aprox. 2 cm, repartir el queso y el jamón y espolvorear con el orégano. Doblar el disco de masa sobre el relleno. Presionar la masa ligeramente para sacar el aire del interior. Sellar los bordes apretándolos con los dedos o con un tenedor. Colocar los calzone en la bandeja de horno preparada.",
+      "robot": null
+    },
+    {
+      "instruccion": "Hornear hasta que estén dorados. Retirar del horno y servir calientes.",
+      "robot": null
+    }
+  ],
+  "notas": "El tiempo total incluye aprox. 1 hora de leudado de la masa. Hornear 18-20 minutos a 200°C o hasta que estén dorados."
+}
